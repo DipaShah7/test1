@@ -1,0 +1,22 @@
+creating and pushing to new branch from dev
+
+clone the remote repo 
+git checkout development
+git pull
+git checkout -b feature1(New branch name) 
+->add new file to new folder
+git status
+git add .
+git commit -m "commit message"
+git rebase development
+git push --force
+
+
+
+git
+git init
+git add .
+git status
+git commit -m "<Comment>"
+git remote add origin <url>
+git push -u origin1 master
